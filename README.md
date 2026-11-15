@@ -126,7 +126,7 @@ Graduation project, Palestine Technical University – Kadoorie
 - **Baraa Rasmi**
 - **Aktham Maher**
 
-Supervisor: **Dr. Fadi Khalil Mohammad**
+Supervisor: **Dr. Alaa Naeem Tawfiq Abu Zahra**
 
 ---
 
