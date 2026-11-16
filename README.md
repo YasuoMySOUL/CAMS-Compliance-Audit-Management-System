@@ -73,7 +73,7 @@ The same calculation gives the score of each domain and of the whole project.
 
 - Every read and every change is limited to the organization you are working in. A record from another organization is answered as "not found", so even its existence is not revealed.
 - Your role and permissions are checked on the server with every request, so a role change or a disabled membership works immediately.
-- Passwords are stored as bcrypt hashes. Nobody can set your password or change your email for you, not even your administrator.
+- Passwords are stored as bcrypt hashes. Nobody can set your password or change your email for you, not even your administrator. You change your own email address with your password and a link sent to the new address.
 - Repeated wrong passwords lock sign-in for a while, and sign-ups, invitations and reset links are limited.
 - The audit log and the security trail are append-only, and the database itself refuses to edit or delete them.
 - The whole site runs over HTTPS.
@@ -116,7 +116,7 @@ The same calculation gives the score of each domain and of the whole project.
 - **Backend:** Node.js, Express, TypeScript
 - **Database:** MySQL / MariaDB
 - **Hosting:** Ubuntu cloud server, nginx, HTTPS with Let's Encrypt, email through Resend
-- **Testing:** 184 automated API tests with Vitest
+- **Testing:** 190 automated API tests with Vitest
 
 ## Team
 
